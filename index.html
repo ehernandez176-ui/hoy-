@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erick Larrainzar — futbolista</title>
+  <meta name="description" content="Erick Larrainzar. Futbolista. Relax mode on." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Textura de grano -->
+  <svg class="grain" aria-hidden="true"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" /></filter><rect width="100%" height="100%" filter="url(#n)" /></svg>
+
+  <!-- Reflector de estadio que sigue el cursor -->
+  <div class="spotlight" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top">EL·10</a>
+    <div class="status"><span class="dot"></span>Listo para jugar</div>
+    <nav class="nav">
+      <a href="#stats">Stats</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <span class="jersey" aria-hidden="true">10</span>
+      <p class="eyebrow reveal">Mediocampista · Club (edítalo)</p>
+      <h1 class="title">
+        <span class="line"><span>Erick</span></span>
+        <span class="line"><span>Larrainzar</span></span>
+      </h1>
+      <p class="role reveal">Juego relajado, fumo como chacucaco y aun así te bailo en el área.</p>
+      <div class="cta-row reveal">
+        <a class="btn btn-primary magnetic" href="#contacto">Contrátame</a>
+        <a class="btn btn-ghost magnetic" href="#stats">Ver números</a>
+      </div>
+      <a class="scroll-hint" href="#stats" aria-label="Bajar">↓</a>
+    </section>
+
+    <section id="stats" class="stats">
+      <div class="stat reveal"><span class="stat-num">132</span><span class="stat-lbl">Partidos</span></div>
+      <div class="stat reveal"><span class="stat-num">47</span><span class="stat-lbl">Goles</span></div>
+      <div class="stat reveal"><span class="stat-num">61</span><span class="stat-lbl">Asistencias</span></div>
+      <div class="stat reveal"><span class="stat-num accent">420</span><span class="stat-lbl">Nivel de relax</span></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Gambeta</span><span class="sep">●</span><span>Asistencia</span><span class="sep">●</span><span>Gol</span><span class="sep">●</span><span>Relax</span><span class="sep">●</span>
+        <span>Gambeta</span><span class="sep">●</span><span>Asistencia</span><span class="sep">●</span><span>Gol</span><span class="sep">●</span><span>Relax</span><span class="sep">●</span>
+      </div>
+    </div>
+
+    <section class="panel">
+      <p class="panel-eyebrow reveal">01 — El jugador</p>
+      <h2 class="reveal">Ficha técnica</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-num">POS</span>
+          <h3>Mediocampista</h3>
+          <p>Cambia la posición por la tuya: delantero, defensa, portero, lo que sea.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-num">PIE</span>
+          <h3>Zurdo</h3>
+          <p>Pie hábil. Edita esto y lo demás a tu gusto.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-num">EST</span>
+          <h3>Tranquilo bajo presión</h3>
+          <p>Tu estilo de juego en una frase. Aquí va lo que te hace distinto.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel work">
+      <p class="panel-eyebrow reveal">02 — Trayectoria</p>
+      <h2 class="reveal">Por dónde he pasado</h2>
+      <ul class="projects">
+        <li class="project reveal">
+          <span class="project-index">01</span>
+          <div class="project-body">
+            <h3>Nombre del club</h3>
+            <p>Categoría o liga · qué hiciste ahí.</p>
+          </div>
+          <span class="project-meta">2024–26 ↗</span>
+        </li>
+        <li class="project reveal">
+          <span class="project-index">02</span>
+          <div class="project-body">
+            <h3>Otro club</h3>
+            <p>Un logro o un dato que valga la pena.</p>
+          </div>
+          <span class="project-meta">2022–24 ↗</span>
+        </li>
+        <li class="project reveal">
+          <span class="project-index">03</span>
+          <div class="project-body">
+            <h3>Fuerzas básicas</h3>
+            <p>De dónde vienes. Agrega o quita filas.</p>
+          </div>
+          <span class="project-meta">2020–22 ↗</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="panel contact">
+      <p class="panel-eyebrow reveal">03 — Contacto</p>
+      <h2 class="contact-title reveal">¿Me quieres en tu equipo?</h2>
+      <a class="big-mail reveal magnetic" href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a>
+      <ul class="socials reveal">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a href="https://wa.me/52" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Erick Larrainzar</span>
+    <span>Relax mode on</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
